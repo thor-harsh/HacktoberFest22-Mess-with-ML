@@ -1,0 +1,4 @@
+import os
+import pandas as pd
+os.chdir('your local folder path in which the file is stored goes here')
+df = pd.read_csv('seattle-weather.csv')
